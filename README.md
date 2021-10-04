@@ -1,6 +1,6 @@
 # InfoTech Career-path Online Learning Platform using react router
 
-This project was bootstrapped with [Click Here](https://info-tech-career-path-yasin29.netlify.app/home).
+For explore this website, [Click Here](https://info-tech-career-path-yasin29.netlify.app/home).
 
 ## Available Feature
 
