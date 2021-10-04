@@ -1,0 +1,162 @@
+[
+    {
+        "_id": "6150100647307b26808d506d",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png",
+        "name": "vue.js",
+        "fee": 12,
+        "trend": "mid",
+        "level": "Beginner",
+        "instructor": "Serena Richard",
+        "company": "EQUITAX"
+    },
+    {
+        "_id": "615010066e368690296d21d3",
+        "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7SAAxcKl4KMZhHqNx2yndgGVOay564eS94A&usqp=CAU",
+        "name": "Python",
+        "fee": 15,
+        "trend": "top",
+        "level": "Expert",
+        "instructor": "Leah Larsen",
+        "company": "EXOPLODE"
+    },
+    {
+        "_id": "615010067edaac806441b197",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIaa6lDRUW_qzrAixG0EiWrhYBhiPR_qNeKQ&usqp=CAU",
+        "name": "mongoDB",
+        "fee": 11,
+        "trend": "mid",
+        "level": "Beginner",
+        "instructor": "Christina Rosales",
+        "company": "VELOS"
+    },
+    {
+        "_id": "615010069753ae0b9e0f4699",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
+        "name": "Angular",
+        "fee": 14,
+        "trend": "mid",
+        "level": "Intermediate",
+        "instructor": "Finley Cunningham",
+        "company": "IZZBY"
+    },
+    {
+        "_id": "615010068f6ee06f6aa5bf40",
+        "img": "https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png",
+        "name": "MySql",
+        "fee": 12,
+        "trend": "mid",
+        "level": "Beginner",
+        "instructor": "Cross Barrett",
+        "company": "SPLINX"
+    },
+    {
+        "_id": "61501006949eacc0ff21383b",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjsJJNkJXDf8KTp8UGExyf908fh1zgOXwC8A&usqp=CAU",
+        "name": "Bootstrap",
+        "fee": 13,
+        "trend": "mid",
+        "level": "Intermediate",
+        "instructor": "Pennington Tate",
+        "company": "ZENTILITY"
+    },
+    {
+        "_id": "61501006498492ae90cccded",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJnSYJx-5pLgMizR_Fdp0sR5RTzWZhzJnRMg&usqp=CAU",
+        "name": "Javascript",
+        "fee": 13,
+        "trend": "top",
+        "level": "Beginner",
+        "instructor": "Samantha Smith",
+        "company": "ELITA"
+    },
+    {
+        "_id": "61501006fe1b8f897e1c85e8",
+        "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTegqtpjaj-qq-90hiYQwWV8GFqZyFy_mtjVU8uxEzoihODpcdzT_ODBU4&s=10",
+        "name": "HTML5",
+        "fee": 12,
+        "trend": "mid",
+        "level": "Beginner",
+        "instructor": "Hope Lawson",
+        "company": "EZENT"
+    },
+    {
+        "_id": "6150100618d58525351ce260",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9jgxZrANeFcUdBhY7e6L1mnGLLuxL19EK9Q&usqp=CAU",
+        "name": "CSS3",
+        "fee": 12,
+        "trend": "mid",
+        "level": "Beginner",
+        "instructor": "Muriel Harrison",
+        "company": "ETERNIS"
+    },
+    {
+        "_id": "61501006623747186adc7fb9",
+        "img": " https://reactjs.org/logo-og.png",
+        "name": "React.js",
+        "fee": 14,
+        "trend": "mid",
+        "level": "Beginner",
+        "instructor": "Moses Estrada",
+        "company": "FIBEROX"
+    },
+    {
+        "_id": "61501006984cc0ec54dc2dce",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1aQkyVS5-y3wau8gYYSvZ0h3rHYmqerzuXg&usqp=CAU",
+        "name": "django Rest Framework",
+        "fee": 14,
+        "trend": "mid",
+        "level": "Intermediate",
+        "instructor": "Naomi Gonzales",
+        "company": "ZILLAR"
+    },
+    {
+        "_id": "615010067536df0f8acb86a5",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW11aEpHCVgZNiTF0AhfDR58Kts2fkXGZ4HA&usqp=CAU",
+        "name": "Tailwindcss",
+        "fee": 14,
+        "trend": "mid",
+        "level": "Intermediate",
+        "instructor": "Jaime Peters",
+        "company": "BUZZWORKS"
+    },
+    {
+        "_id": "615010067536d42348acb86a5",
+        "img": "https://p.kindpng.com/picc/s/194-1944396_icon-for-seo-marketing-increase-seo-hd-png.png",
+        "name": "Search Engine Optimization",
+        "fee": 14,
+        "trend": "top",
+        "level": "Intermediate",
+        "instructor": "Jaime Peters",
+        "company": "BUZZWORKS"
+    },
+    {
+        "_id": "615010097836d42348acb86a5",
+        "img": "https://seeklogo.com/images/A/adobe-illustrator-cc-logo-C1DC5A6D09-seeklogo.com.png",
+        "name": "Graphics Design (AI)",
+        "fee": 11,
+        "trend": "mid",
+        "level": "Intermediate",
+        "instructor": "Jaime Peters",
+        "company": "BUZZWORKS"
+    },
+    {
+        "_id": "615010097836d42348a3426a5",
+        "img": "https://pbs.twimg.com/profile_images/1272878358150275078/iBJehkOi_400x400.png",
+        "name": "VFX (After effects)",
+        "fee": 13,
+        "trend": "mid",
+        "level": "Intermediate",
+        "instructor": "Jaime Peters",
+        "company": "BUZZWORKS"
+    },
+    {
+        "_id": "6150100021936d42348a3426a5",
+        "img": "https://ih1.redbubble.net/image.234926628.4496/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        "name": "Data Science With R",
+        "fee": 12,
+        "trend": "top",
+        "level": "Intermediate",
+        "instructor": "Jaime Peters",
+        "company": "BUZZWORKS"
+    }
+]
