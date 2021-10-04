@@ -1,6 +1,6 @@
 # InfoTech Career-path Online Learning Platform using react router
 
-This project was bootstrapped with [Click Here](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Click Here](https://info-tech-career-path-yasin29.netlify.app/home).
 
 ## Available Feature
 
@@ -9,7 +9,8 @@ In the project directory, you can run:
 ### `A react app using router`
 
 We used react router and also used bootstrap as css framework.\
-This will give you smooth experience.
+This will give you smooth experience.\
+I use my own fake db in public as json file.
 
 ### `Courses`
 
