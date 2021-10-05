@@ -20,7 +20,7 @@ const Header = () => {
         <div>
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand style={{ marginRight: '35%', fontWeight: '600' }} to="/home"><Link to="/home" style={{ textDecoration: 'none' }}>{element} InfoTech</Link></Navbar.Brand>
+                    <Navbar.Brand style={{ marginRight: '33%', fontWeight: '600' }} to="/home"><Link to="/home" style={{ textDecoration: 'none' }}>{element} InfoTech</Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="me-auto my-2 my-lg-0"
@@ -39,7 +39,7 @@ const Header = () => {
                                 activeStyle={styleNav}
                                 style={textStyle}
                             >
-                                Career-Path
+                                All Courses
                             </NavLink>
                             <NavLink
                                 to="/join"

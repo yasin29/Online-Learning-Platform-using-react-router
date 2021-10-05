@@ -1,4 +1,4 @@
-import { faHandPointer } from '@fortawesome/free-solid-svg-icons';
+import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Carousel, Button } from 'react-bootstrap';
@@ -10,9 +10,9 @@ const SliderHome = () => {
     const handleClick = () => {
         history.push("/career")
     }
-    const element = <FontAwesomeIcon icon={faHandPointer} />
+    const element = <FontAwesomeIcon icon={faSignInAlt} />
     return (
-        <div className="mx-auto" style={{ display: 'block', width: '80%', padding: 30 }}>
+        <div className="mx-auto " style={{ display: 'block', width: '80%', padding: 30 }}>
             <Carousel>
                 <Carousel.Item interval={1000}>
                     <img
@@ -22,8 +22,10 @@ const SliderHome = () => {
                         alt=""
                     />
                     <Carousel.Caption>
-                        <h3>Best Digital Marketing Resources</h3>
-                        <p>Explore Digital marketing world with us</p>
+                        <div className="bg-white text-primary w-50 mx-auto rounded" style={{ opacity: 0.6 }}>
+                            <h3>Online Degrees</h3>
+                            <p>Study Flexibly Online</p>
+                        </div>
                         <Button onClick={() => handleClick()} className="my-5 bg-success">{element} Click for All Career Path Courses</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -35,8 +37,12 @@ const SliderHome = () => {
                         alt=""
                     />
                     <Carousel.Caption>
-                        <h3>Top web development courses</h3>
-                        <p>Journey to become a full stack developer</p>
+
+                        <div className="bg-white text-primary w-50 mx-auto rounded" style={{ opacity: 0.6 }}>
+
+                            <h3>Learn new skills</h3>
+                            <p>With  flexible courses</p>
+                        </div>
                         <Button onClick={() => handleClick()} className="my-5 bg-success">{element} Click for All Career Path Courses</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -48,8 +54,12 @@ const SliderHome = () => {
                         alt=""
                     />
                     <Carousel.Caption>
-                        <h3>Data Revolution with Data Science</h3>
-                        <p>Explore Data Science world</p>
+
+                        <div className="bg-white text-primary w-50 mx-auto rounded" style={{ opacity: 0.6 }}>
+
+                            <h3>Expert Teachers</h3>
+                            <p>Upskill with specialist</p>
+                        </div>
                         <Button onClick={() => handleClick()} className="my-5 bg-success">{element} Click for All Career Path Courses</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
