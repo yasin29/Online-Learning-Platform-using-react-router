@@ -10,13 +10,14 @@ const SliderHome = () => {
     const handleClick = () => {
         history.push("/career")
     }
+    // font awesome 
     const element = <FontAwesomeIcon icon={faSignInAlt} />
     return (
-        <div className="mx-auto " style={{ display: 'block', width: '80%' }}>
+        <div className="mx-auto" style={{ display: 'block', width: '80%' }}>
             <Carousel>
                 <Carousel.Item interval={1000}>
                     <img
-                        className="d-block w-100 img-fluid"
+                        className="d-block w-100 img-fluid "
                         style={{ height: '350px' }}
                         src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/07/hero2x-768x288.jpg"
                         alt=""

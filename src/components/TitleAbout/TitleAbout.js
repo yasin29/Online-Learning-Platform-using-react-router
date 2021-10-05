@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { CourseContext } from '../../App';
 
 const TitleAbout = () => {
+    // context api call 
     const [learners, courses] = useContext(CourseContext);
     return (
         <div className="bg-image p-3 mb-3 rounded"

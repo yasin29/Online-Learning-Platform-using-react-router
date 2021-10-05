@@ -10,6 +10,7 @@ import Home from './components/Home/Home';
 import Join from './components/Join/Join';
 import NotFound from './components/NotFound/NotFound';
 import Registered from './components/Registered/Registered';
+import SendMessage from './components/SendMessage/SendMessage';
 import TeacherForm from './components/TeacherForm/TeacherForm';
 
 export const CourseContext = createContext('course');
@@ -18,9 +19,10 @@ function App() {
   const learners = 5013;
   const courses = 16;
   return (
+    // using context api 
     <CourseContext.Provider value={[learners, courses]}>
       <div className="App">
-
+        {/* applying react router  */}
         <Router>
           <Header></Header>
           <Switch>
@@ -47,6 +49,9 @@ function App() {
             </Route>
             <Route path="/entrolled">
               <Entrolled></Entrolled>
+            </Route>
+            <Route path="/message">
+              <SendMessage></SendMessage>
             </Route>
             <Route path="*">
               <NotFound></NotFound>

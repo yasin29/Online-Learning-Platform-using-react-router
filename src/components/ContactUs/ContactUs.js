@@ -1,7 +1,12 @@
 import React from 'react';
 import { Form, Button, FloatingLabel, Row, Col } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
 const ContactUs = () => {
+    const history = useHistory();
+    const handleClick = () => {
+        history.push('/message')
+    }
     return (
         <div>
             <Form className="bg-secondary my-5 text-start p-3 rounded">
@@ -35,7 +40,7 @@ const ContactUs = () => {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Agree terms &amp; conditions" />
                 </Form.Group>
-                <Button className="bg-danger" variant="primary" type="submit">
+                <Button onClick={() => handleClick()} className="bg-danger" variant="primary" type="submit">
                     Submit Message
                 </Button>
             </Form>

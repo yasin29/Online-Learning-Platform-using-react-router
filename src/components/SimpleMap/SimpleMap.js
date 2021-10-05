@@ -15,6 +15,7 @@ class SimpleMap extends Component {
     };
 
     render() {
+        // font awesome icon 
         const mark = <FontAwesomeIcon style={{ color: 'red' }} icon={faMapMarkerAlt} />
         const call = <FontAwesomeIcon style={{ color: 'red' }} icon={faPhoneVolume} />
         const mail = <FontAwesomeIcon style={{ color: 'red' }} icon={faEnvelopeSquare} />
