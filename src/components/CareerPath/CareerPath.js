@@ -10,7 +10,6 @@ const CareerPath = () => {
         <div className="container mb-3">
             <TopEnrolled />
             <h1>Explore All Career-path Courses</h1>
-
             {courses.length ? <Row xs={1} md={3} lg={4} className="g-4">
                 {courses.map(course => <TopCart key={course._id} course={course} />)}
             </Row> :
