@@ -33,7 +33,7 @@ const ContactUs = () => {
                     />
                 </FloatingLabel>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                    <Form.Check type="checkbox" label="Agree terms &amp; conditions" />
                 </Form.Group>
                 <Button className="bg-danger" variant="primary" type="submit">
                     Submit Message

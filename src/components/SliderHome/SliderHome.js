@@ -12,12 +12,12 @@ const SliderHome = () => {
     }
     const element = <FontAwesomeIcon icon={faSignInAlt} />
     return (
-        <div className="mx-auto " style={{ display: 'block', width: '80%', padding: 30 }}>
+        <div className="mx-auto " style={{ display: 'block', width: '80%' }}>
             <Carousel>
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100 img-fluid"
-                        style={{ height: '450px' }}
+                        style={{ height: '350px' }}
                         src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/07/hero2x-768x288.jpg"
                         alt=""
                     />
@@ -32,7 +32,7 @@ const SliderHome = () => {
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100 img-fluid"
-                        style={{ height: '450px' }}
+                        style={{ height: '350px' }}
                         src="https://hackr.io/blog/best-web-development-courses/thumbnail/large"
                         alt=""
                     />
@@ -49,7 +49,7 @@ const SliderHome = () => {
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100 img-fluid"
-                        style={{ height: '450px' }}
+                        style={{ height: '350px' }}
                         src="https://miro.medium.com/max/1024/1*6l15igU_z2Uj15SzOGx1Iw.png"
                         alt=""
                     />

@@ -8,8 +8,8 @@ const WhatsBest = () => {
     return (
         <div>
             <CardGroup>
-                <Card>
-                    <Card.Body className="d-flex bg-info rounded-pill">
+                <Card className="border-0">
+                    <Card.Body className="d-flex bg-info rounded-pill m-2">
                         <div >
                             {element}
                         </div>
@@ -21,8 +21,8 @@ const WhatsBest = () => {
                         </div>
                     </Card.Body>
                 </Card>
-                <Card>
-                    <Card.Body className="d-flex bg-success rounded-pill">
+                <Card className="border-0">
+                    <Card.Body className="d-flex bg-success rounded-pill m-2">
                         <div >
                             {element}
                         </div>
@@ -34,9 +34,8 @@ const WhatsBest = () => {
                         </div>
                     </Card.Body>
                 </Card>
-                <Card>
-
-                    <Card.Body className="d-flex bg-primary rounded-pill">
+                <Card className="border-0">
+                    <Card.Body className="d-flex bg-primary rounded-pill m-2">
                         <div >
                             {element}
                         </div>

@@ -19,7 +19,7 @@ class SimpleMap extends Component {
         const call = <FontAwesomeIcon style={{ color: 'red' }} icon={faPhoneVolume} />
         const mail = <FontAwesomeIcon style={{ color: 'red' }} icon={faEnvelopeSquare} />
         return (
-            <div className="mx-auto rounded mt-2" style={{ height: '50vh', width: '60%', marginBottom: '200px' }}>
+            <div className="mx-auto rounded mt-2" style={{ height: '50vh', width: '80%', marginBottom: '200px' }}>
                 <div>
                     <h3>Our Address</h3>
                     <h5>{mark} 60 Kemal Ataturk Ave, Dhaka 1212</h5>
